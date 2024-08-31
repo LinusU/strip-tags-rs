@@ -1,0 +1,20 @@
+[package]
+name = "strip-tags"
+version = "0.0.0"
+authors = ["Linus Unnebäck <linus@folkdatorn.se>"]
+edition = "2021"
+rust-version = "1.56"
+
+categories = ["no-std", "text-processing", "web-programming"]
+description = "Strip HTML and PHP tags from strings"
+homepage = "https://github.com/LinusU/strip-tags-rs"
+documentation = "https://docs.rs/strip-tags"
+repository = "https://github.com/LinusU/strip-tags-rs"
+keywords = ["html", "php", "strip", "tags", "sanitize"]
+readme = "readme.md"
+license = "MIT"
+
+[package.metadata.release]
+allow-branch = ["main"]
+pre-release-commit-message = "🚢 {{version}}"
+tag-message = "🚢 {{version}}"
